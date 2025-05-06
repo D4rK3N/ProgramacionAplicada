@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML, especifica el idioma inglés -->
+<head> <!-- Inicia la sección de metadatos del documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el viewport para adaptarse al ancho del dispositivo -->
+    <title>Document</title> <!-- Establece el título de la página -->
+</head> <!-- Cierra la sección de metadatos -->
+<body> <!-- Inicia el contenido visible de la página -->
+    <p><em>Este es mi <strong>primer párrafo</strong></em></p> <!-- Crea un párrafo con texto en cursiva (<em>) y una parte en negrita (<strong>) -->
+    <br> <!-- Inserta un salto de línea -->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Icono de Firefox" width="150" height="150" /> <!-- Muestra una imagen con URL, texto alternativo y dimensiones específicas -->
+    <br> <!-- Inserta otro salto de línea -->
+    <form action="/my-handling-from-page" method="post"> <!-- Inicia un formulario que envía datos a una URL mediante el método POST -->
+        <ul> <!-- Inicia una lista desordenada -->
+            <li> <!-- Inicia un elemento de la lista -->
+                <label for="name">Nombre:</label> <!-- Etiqueta para el campo de entrada de nombre -->
+                <input type="text" id="name" name="user_name" /> <!-- Campo de entrada de texto para el nombre -->
+            </li> <!-- Cierra el elemento de la lista -->
+            <li> <!-- Inicia otro elemento de la lista -->
+                <label for="mail">Correo electrónico:</label> <!-- Etiqueta para el campo de entrada de correo -->
+                <input type="email" id="mail" name="user_mail" /> <!-- Campo de entrada para correo electrónico -->
+            </li> <!-- Cierra el elemento de la lista -->
+            <li> <!-- Inicia otro elemento de la lista -->
+                <label for="msg">Mensaje:</label> <!-- Etiqueta para el área de texto -->
+                <textarea id="msg" name="user_message"></textarea> <!-- Área de texto para mensajes -->
+            </li> <!-- Cierra el elemento de la lista -->
+            <li class="button"> <!-- Inicia un elemento de lista con clase "button" -->
+                <button type="submit">Envíe su mensaje</button> <!-- Botón para enviar el formulario -->
+            </li> <!-- Cierra el elemento de la lista -->
+        </ul> <!-- Cierra la lista desordenada -->
+    </form> <!-- Cierra el formulario -->
+    <br> <!-- Inserta otro salto de línea -->
+    <a href="https://www.mozilla.org/">sitio web favorito</a> <!-- Crea un enlace a una URL externa con texto descriptivo -->
+    <br> <!-- Inserta otro salto de línea -->
+</body> <!-- Cierra el contenido visible de la página -->
+</html> <!-- Cierra el documento HTML -->

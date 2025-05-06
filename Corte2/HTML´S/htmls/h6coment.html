@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Define que el documento es HTML5 -->
+<html lang="en"> <!-- Indica que el idioma principal de la página es inglés -->
+<head> <!-- Inicio del encabezado, aquí van los metadatos y enlaces -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres, evita problemas con acentos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que la página sea responsive -->
+    <title>My page title</title> <!-- Título de la pestaña en el navegador -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" /> <!-- Fuente externa de Google Fonts -->
+    <link rel="stylesheet" href="style.css" /> <!-- Enlace al archivo CSS para los estilos -->
+</head>
+<body> <!-- Inicio del contenido visible en la página -->
+    <header> <!-- Encabezado principal -->
+        <h1>Header</h1> <!-- Título de la página -->
+    </header>
+
+    <nav> <!-- Menú de navegación -->
+        <ul> <!-- Lista de opciones del menú -->
+          <li><a href="#">Home</a></li> <!-- Enlace a la página de inicio -->
+          <li><a href="#">Our team</a></li> <!-- Enlace al equipo -->
+          <li><a href="#">Projects</a></li> <!-- Enlace a proyectos -->
+          <li><a href="#">Contact</a></li> <!-- Enlace a contacto -->
+        </ul>
+  
+        <!-- Formulario de búsqueda -->
+        <form>
+          <input type="search" name="q" placeholder="Search query" /> <!-- Campo de búsqueda -->
+          <input type="submit" value="Go!" /> <!-- Botón para buscar -->
+        </form>
+    </nav>
+
+    <main> <!-- Contenedor del contenido principal -->
+        <article> <!-- Artículo con información -->
+          <h2>Article heading</h2> <!-- Encabezado del artículo -->
+          <p>Texto de prueba, tipo Lorem Ipsum</p> <!-- Párrafo con contenido ficticio -->
+
+          <section> <!-- Subsección del artículo -->
+            <h3>Subsection</h3>
+            <p>Otro bloque de texto de prueba</p>
+            <p>Más texto dentro de la subsección</p>
+          </section>
+
+          <section> <!-- Otra subsección -->
+            <h3>Another subsection</h3>
+            <p>Más contenido para estructurar la información</p>
+            <p>Otro párrafo con texto de prueba</p>
+
+            <p> <!-- Fragmento de una obra con una nota del editor -->
+                The King walked drunkenly back to his room at 01:00...
+                <span class="editor-note">[Nota del editor sobre las luces]</span>
+            </p>
+
+            <br> <!-- Salto de línea -->
+            <hr> <!-- Línea horizontal para separar secciones -->
+
+            <div class="shopping-cart"> <!-- Contenedor del carrito de compras -->
+                <h2>Shopping cart</h2>
+                <ul> <!-- Lista de productos -->
+                  <li>
+                    <p><a href=""><strong>Silver earrings</strong></a>: $99.95.</p> <!-- Producto con enlace y precio -->
+                    <img src="../products/3333-0985/thumb.png" alt="Silver earrings" /> <!-- Imagen del producto -->
+                  </li>
+                </ul>
+                <p>Total cost: $237.89</p> <!-- Precio total del carrito -->
+            </div>
+            <hr> <!-- Separador -->
+          </section>
+        </article>
+
+        <aside> <!-- Contenido relacionado pero secundario -->
+          <h2>Related</h2>
+          <ul> <!-- Lista de enlaces relacionados -->
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a></li>
+            <li><a href="#">Although in the North of England</a></li>
+            <li><a href="#">It never stops raining</a></li>
+            <li><a href="#">Oh well…</a></li>
+          </ul>
+        </aside>
+    </main>
+
+    <footer> <!-- Pie de página -->
+        <p>©Copyright 2050 by nobody. All rights reversed.</p> <!-- Mensaje de derechos de autor humorístico -->
+    </footer>
+</body>
+</html>
